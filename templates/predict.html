@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<html>
+    <body>
+        <center>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <form>
+                입력 : <input tpye='text' name='kor' placeholder="한국어를 입력하세요." style="width:400px;">
+                <input type="submit" value="번역">
+            </form>
+            <p></p>
+            {% if kor == None %}
+                <h5> 번역할 한국어를 입력해주세요. </h5>
+            {% else %}
+                <h5> {{kor}}</h5>
+                <!-- <link rel="import" href="templates/image_attention.html"> -->
+                <!-- <iframe src="templates/image_attention.html"></iframe> -->
+
+                
+            {% endif %}
+        </center>
+    </body>
+</html>
+{% endblock %}
