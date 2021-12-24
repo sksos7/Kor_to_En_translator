@@ -3,7 +3,8 @@
 **한영 번역기**
 ---
 
-<!-- <img src="img/kor_to_en.png"/> -->
+![image](https://user-images.githubusercontent.com/41771983/147334822-aca972ad-a513-4779-aea8-c940e94da313.png)
+
  
 <img src="https://img.shields.io/badge/Python-green?style=plastic&logo=Python&logoColor=#3776AB"/> <img src="https://img.shields.io/badge/Jupyter-inactive?style=plastic&logo=Jupyter&logoColor=#F37626"/>
 <img src="https://img.shields.io/badge/NumPy-important?style=plastic&logo=NumPy&logoColor=#013243"/>
